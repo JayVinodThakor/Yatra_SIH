@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "Where do you want to go?",
+    "description": "Tell us your destination and we'll plan the perfect journey.",
+    "placeholder": "I need to reach Delhi tomorrow around 6 PM"
+  },
+
+  "features": [
+    {
+      "title": "Door-to-Door Planning",
+      "description": "From your home to your final destination."
+    },
+    {
+      "title": "Multimodal Search",
+      "description": "Train, Flight, Bus, Metro, Cab and more."
+    },
+    {
+      "title": "Intelligent Departure Time",
+      "description": "Know when you should leave based on your complete journey."
+    },
+    {
+      "title": "Real-time Availability & Fare",
+      "description": "Live status, availability and fare information."
+    },
+    {
+      "title": "Minimal Questions",
+      "description": "Tell YATRA naturally. It asks only what is needed."
+    },
+    {
+      "title": "Smart Recommendations",
+      "description": "Best, Fastest, Cheapest and Most Convenient."
+    },
+    {
+      "title": "First & Last Mile",
+      "description": "Connect your actual starting point and final destination."
+    },
+    {
+      "title": "Personalized Experience",
+      "description": "Recommendations based on your preferences and needs."
+    }
+  ],
+
+  "howItWorks": [
+    {
+      "number": "01",
+      "title": "You Tell Us",
+      "description": "Destination, date and preferred time."
+    },
+    {
+      "number": "02",
+      "title": "We Find",
+      "description": "Available transport modes and routes."
+    },
+    {
+      "number": "03",
+      "title": "We Calculate",
+      "description": "Timings, fares, transfers, buffers and risks."
+    },
+    {
+      "number": "04",
+      "title": "We Recommend",
+      "description": "The best journey with an explanation."
+    }
+  ],
+
+  "journey": {
+    "from": "Gandhinagar",
+    "destination": "Connaught Place, Delhi",
+    "totalDuration": "14h 20m",
+    "totalFare": "₹1,320",
+    "transfers": 2,
+
+    "timeline": [
+      {
+        "time": "5:10 PM",
+        "place": "Gandhinagar",
+        "type": "home",
+        "description": "Home"
+      },
+      {
+        "time": "5:55 PM",
+        "place": "Ahmedabad Railway Station",
+        "type": "cab",
+        "description": "45 min buffer"
+      },
+      {
+        "time": "6:40 PM",
+        "place": "Train 12958",
+        "type": "train",
+        "description": "Ahmedabad → Delhi"
+      },
+      {
+        "time": "7:50 AM",
+        "place": "Delhi Railway Station",
+        "type": "train",
+        "description": "Reach Delhi"
+      },
+      {
+        "time": "8:15 AM",
+        "place": "Connaught Place, Delhi",
+        "type": "destination",
+        "description": "Final destination"
+      }
+    ]
+  },
+
+  "recommendations": [
+    "Best Overall",
+    "Fastest",
+    "Cheapest",
+    "Most Convenient"
+  ]
+}
