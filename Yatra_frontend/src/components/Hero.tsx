@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   ArrowRight,
@@ -394,23 +394,5 @@ const [transportMode, setTransportMode] = useState("Any mode");
     </section>
   );
 };
-
-const Chip = ({ icon, text }: { icon: ReactNode; text: string }) => (
-  <motion.div
-    initial={{
-      opacity: 0,
-      scale: 0.9,
-    }}
-    animate={{
-      opacity: 1,
-      scale: 1,
-    }}
-    className="flex items-center gap-1.5 rounded-lg border border-[#d9e5e5] bg-[#edf3f3] p-2.5 text-[10px] font-medium text-[#426879]"
-  >
-    <span className="h-3.5 w-3.5">{icon}</span>
-
-    {text}
-  </motion.div>
-);
 
 export default Hero;

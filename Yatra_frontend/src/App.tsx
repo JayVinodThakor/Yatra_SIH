@@ -1,4 +1,4 @@
-import { useEffect, type PropsWithChildren } from "react";
+import { type PropsWithChildren } from "react";
 import "./App.css";
 // import { getActiveRolePermissions } from "./utils/API";
 // import { useDispatch, useSelector } from "react-redux";

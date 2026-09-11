@@ -1,5 +1,5 @@
 
-import type { RouteObjectWithLayout } from ".";
+import type { RouteObjectWithLayout } from "../router";
 import Compare from "../pages/Compare";
 import Index from "../pages/Index";
 import PageNotFound from "../pages/PageNotFound";
